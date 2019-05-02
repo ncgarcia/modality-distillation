@@ -4,6 +4,9 @@
 
 [ECCV 2018](http://openaccess.thecvf.com/content_ECCV_2018/html/Nuno_Garcia_Modality_Distillation_with_ECCV_2018_paper.html)
 
+__ERRATA__ (ECCV paper, Figure 2): first convolutional block of each ResNet unit is 1x1, not 3x3. The [code](https://github.com/pmorerio/admd/blob/39f871dc104cd1923717d09bb00da128248c487e/ActionRecogDatasets/nets/resnet_v1_two_stream.py#L36) is correct. 
+
+
 If you use this code as part of any published research, please acknowledge the following paper:
 
     @InProceedings{Garcia_2018_ECCV,
